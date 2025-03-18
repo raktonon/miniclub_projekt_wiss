@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header-container {
     position: relative;
     display: inline-block;
@@ -156,13 +160,13 @@ article {
 }
 
 .article-img {
-    width: auto;
-    height: 100%;
-    max-height: 100%;
-    max-width: 39.5%;
+    max-height: fit-content;
+    min-width: 30%;
     background: #ccc;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
-    display: block;
 }
 
 footer {
@@ -173,9 +177,6 @@ footer {
     padding: 15px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 .article-title {
     margin: 0;
