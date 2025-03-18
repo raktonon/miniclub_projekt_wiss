@@ -1,0 +1,25 @@
+caption {
+    font-weight: bold;
+    color: #cc3333;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 50%;
+    align-items: center;
+    border-collapse: collapse;
+    border: #4c4c4c;
+    border-style: dotted;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+tfoot {
+    column-span: all;
+    text-align: center;
+}
