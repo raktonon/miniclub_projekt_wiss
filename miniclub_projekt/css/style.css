@@ -151,22 +151,24 @@ section {
     padding: 15px;
 }
 
+
+.article-img {
+    max-height: fit-content;
+    width: 2000vw;
+    max-width: 540px;
+    background: #ccc;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
 article {
     display: flex;
     gap: 1px;
     background: #f9f9f9;
     margin-bottom: 1%;
     align-items: center;
-}
-
-.article-img {
-    max-height: fit-content;
-    min-width: 30%;
-    background: #ccc;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
 }
 
 footer {
@@ -190,7 +192,6 @@ footer {
     color: #333;
     margin-top: 10px;
 }
-
 
 
 .article-container {
